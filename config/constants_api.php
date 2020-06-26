@@ -4,15 +4,9 @@ $config['_projectID'] = 1;
 define('_PROJECT_ID', $config['_projectID']);
 
 define('_MYSQL', json_encode(array(
-    'account' => array('username' => 'root', 'password' => 'root', 'database' => 'local_account'),
-    'tochuc' => array('username' => 'root', 'password' => 'root', 'database' => 'local_tochuc'),
-    'thongtin' => array('username' => 'root', 'password' => 'root', 'database' => 'local_thongtin'),
-    'tailieu' => array('username' => 'root', 'password' => 'root', 'database' => 'local_tailieu'),
-    'hoachat' => array('username' => 'root', 'password' => 'root', 'database' => 'local_hoachat'),
-    'khachhang' => array('username' => 'root', 'password' => 'root', 'database' => 'local_khachhang'),
-    'nmtkq' => array('username' => 'root', 'password' => 'root', 'database' => 'local_nmtkq'),
-    'ketqua' => array('username' => 'root', 'password' => 'root', 'database' => 'local_ketqua'),
-)));
+    'account' => array('username' => 'root', 'password' => 'root', 'database' => 'api_account'),
+    'tochuc' => array('username' => 'root', 'password' => 'root', 'database' => 'api_tochuc'),
+    )));
 
 // define('_MYSQL', json_encode(array(
 //     'account' => array('username' => 'root', 'password' => 'root', 'database' => 'brem_account'),
